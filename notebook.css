@@ -4,7 +4,7 @@
 .cm-s-notebook.CodeMirror {
   background-color:#fefcee; /* paper */
   color:#403238;            /* black */
-  font-family: Ubuntu Mono, Consolas, Monaco, monospace;
+  font-family: Menlo, Vera Sans Mono, Ubuntu Mono, Consolas, Monaco, monospace;
 }
 .cm-s-notebook .CodeMirror-gutters {background: #fff;border-right:none;}
 .cm-s-notebook .CodeMirror-linenumber {color: #312f2b;opacity:0.8;}
