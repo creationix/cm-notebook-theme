@@ -1,7 +1,6 @@
 /* theme based on set of InkJoy colored pens and a little notbook */
 /* Created by Tim Caswell <tim@creationix.com> */
 
-/* #403238 black */
 .cm-s-notebook-dark.CodeMirror {
   background-color:#1f1d1b; /* line */
   color:#fefcee;            /* paper */
@@ -23,20 +22,25 @@ div.cm-s-notebook-dark span.CodeMirror-matchingbracket {
   border-width: 2px;
 }
 
-.cm-s-notebook-dark .CodeMirror-selected {background: #302e2b}
-.cm-s-notebook-dark.CodeMirror-focused .CodeMirror-selected {background: #4a423a}
+.cm-s-notebook-dark .CodeMirror-activeline-background,
+.cm-s-notebook-dark .CodeMirror-selected {background: #292725}
+.cm-s-notebook-dark.CodeMirror-focused .CodeMirror-selected {background: #453d36}
 
 /* dark-blue - symbols */
 .cm-s-notebook-dark .cm-property {color: #6967f5}
 
 /* light-blue - library variables */
+.cm-s-notebook-dark .cm-qualifier,
 .cm-s-notebook-dark .cm-variable {color: #16b05b}
 
 /* dark-green - user variables */
 .cm-s-notebook-dark .cm-def,
-.cm-s-notebook-dark .cm-variable-2 {color:#029dba}
+.cm-s-notebook-dark .cm-variable-2,
+.cm-s-notebook-dark .cm-variable-3 {color:#029dba}
 
 /* light-green */
+.cm-s-notebook-dark .cm-builtin,
+.cm-s-notebook-dark .cm-tag,
 .cm-s-notebook-dark .cm-keyword {color:#6ac21d}
 
 /* red */

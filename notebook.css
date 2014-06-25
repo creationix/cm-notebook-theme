@@ -22,6 +22,7 @@ div.cm-s-notebook span.CodeMirror-matchingbracket {
   border-width: 2px;
 }
 
+.cm-s-notebook .CodeMirror-activeline-background,
 .cm-s-notebook .CodeMirror-selected {background: #f7f5e1}
 .cm-s-notebook.CodeMirror-focused .CodeMirror-selected {background: #f0ebc5}
 
@@ -29,13 +30,17 @@ div.cm-s-notebook span.CodeMirror-matchingbracket {
 .cm-s-notebook .cm-property {color: #2d229c}
 
 /* light-blue - library variables */
+.cm-s-notebook .cm-qualifier,
 .cm-s-notebook .cm-variable {color: #16b05b}
 
 /* dark-green - user variables */
 .cm-s-notebook .cm-def,
-.cm-s-notebook .cm-variable-2 {color:#029dba}
+.cm-s-notebook .cm-variable-2,
+.cm-s-notebook .cm-variable-3 {color:#029dba}
 
 /* light-green */
+.cm-s-notebook .cm-builtin,
+.cm-s-notebook .cm-tag,
 .cm-s-notebook .cm-keyword {color:#6ac21d}
 
 /* red */
