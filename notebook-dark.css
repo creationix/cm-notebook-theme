@@ -44,7 +44,7 @@ div.cm-s-notebook-dark span.CodeMirror-matchingbracket {
 .cm-s-notebook-dark .cm-keyword {color:#6ac21d}
 
 /* red */
-.cm-s-notebook-dark .cm-atom {color:#f61941}
+.cm-s-notebook-dark .cm-operator {color:#f61941}
 
 /* orange */
 .cm-s-notebook-dark .cm-string {color:#e05909}
@@ -54,7 +54,7 @@ div.cm-s-notebook-dark span.CodeMirror-matchingbracket {
 .cm-s-notebook-dark .cm-number {color:#ea1b8d}
 
 /* purple */
-.cm-s-notebook-dark .cm-operator {color:#9625cf}
+.cm-s-notebook-dark .cm-atom {color:#9625cf}
 
 /* brown */
 .cm-s-notebook-dark .cm-comment {color:#7B563F}
